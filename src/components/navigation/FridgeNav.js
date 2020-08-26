@@ -1,7 +1,11 @@
 import React from 'react';
-
+import { A } from 'hookrouter';
 
 export default function FridgeNav() {
 
-    return <div>This is the fridge Navigation.</div>
+    return (
+        <div>
+            <A href="/">Home</A>
+        </div>
+    )
 }
